@@ -136,6 +136,49 @@ fun main() {
 //    val result = soma(3,4)
 //    println(result)
 ////////////////////////////////////////////////////
-
+//    val numeros = (1 .. 10).toList()
+//
+//    val pares = numeros.filter { it % 2 == 0 }
+//
+//    println(pares)
+////////////////////////////////////////////////////
+//    val numeros = (1 .. 10).toList()
+//
+//    val dobrados = numeros.map { it * 2 }
+//
+//    println(dobrados)
+////////////////////////////////////////////////////
+//    val numeros = listOf(1,2,3,4,5)
+//
+//    val result = numeros.reduce { somaValores, numero ->
+//        somaValores + numero
+//    }
+//
+//    println(result)
+////////////////////////////////////////////////////
+//    val numeros = listOf(1,2,3,4,5)
+//
+//    val result = numeros.reduce { maiorValor, numero ->
+//        if (numero > maiorValor)
+//            numero
+//        else
+//            maiorValor
+//    }
+//
+//    println(result)
+////////////////////////////////////////////////////
+////////////////////////////////////////////////////
+//    val numeros = listOf(1,2,3,4,5)
+//
+//    val resultadoSomaDobroPares = numeros
+//        .filter { numero -> numero % 2 == 0}
+//        .map    {numeroPar -> numeroPar * 2}
+//        .reduce { somaDobroPares, numeroParDobrado ->
+//            somaDobroPares + numeroParDobrado
+//        }
+//
+//    println(resultadoSomaDobroPares)
+////////////////////////////////////////////////////
+////////////////////////////////////////////////////
 
 }

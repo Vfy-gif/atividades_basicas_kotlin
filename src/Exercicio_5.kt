@@ -8,5 +8,8 @@ fun main() {
 
     println("A soma total  é $total")
 
+    // somaValores += numero
 
+//    val somaValores = array.sum()
+//    println(somaValores)
 }
